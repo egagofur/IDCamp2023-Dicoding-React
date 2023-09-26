@@ -66,7 +66,7 @@ export class FormNote extends Component<IProps> {
                 onChange={onHandleChangeBody}
               />
             </div>
-            <button type="submit">
+            <button type="submit" className="mb-4">
               <span className="text-sm font-semibold text-white bg-[#F7CE45]/80 rounded-md py-2 px-4">
                 Save
               </span>
