@@ -25,11 +25,11 @@ export class FormNote extends Component<IProps> {
     } = this.props;
     return (
       <div
-        className={`absolute h-1/2 bottom-0 left-0 right-0 z-50 bg-white rounded-t-3xl ${
+        className={`absolute h-auto pb-8 bottom-0 left-0 right-0 z-50 bg-white rounded-t-3xl ${
           modal ? "block" : "hidden"
         }  mx-auto`}
       >
-        <div className="flex flex-col my-6 px-5 h-full">
+        <div className="flex flex-col mt-6 px-5 h-full">
           <h1 className="text-lg font-bold mb-2">New notes</h1>
           <form onSubmit={onHandleSubmitNote} className="space-y-4">
             <div className="flex flex-col gap-2">

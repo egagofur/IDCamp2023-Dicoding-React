@@ -15,7 +15,7 @@ export default class MainLayout extends Component<IProps> {
     return (
       <section
         className={`relative max-w-md mx-auto bg-background px-5 py-2 ${
-          modal ? "min-h-screen max-h-screen overflow-hidden" : "min-h-screen"
+          modal ? "min-h-screen max-h-screen overflow-y-scroll" : "min-h-screen"
         }`}
       >
         {children}
