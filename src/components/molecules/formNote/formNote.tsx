@@ -29,7 +29,7 @@ export class FormNote extends Component<IProps> {
           modal ? "block" : "hidden"
         }  mx-auto`}
       >
-        <div className="flex flex-col mt-6 px-5 h-full">
+        <div className="flex flex-col my-6 px-5 h-full">
           <h1 className="text-lg font-bold mb-2">New notes</h1>
           <form onSubmit={onHandleSubmitNote} className="space-y-4">
             <div className="flex flex-col gap-2">
@@ -66,7 +66,7 @@ export class FormNote extends Component<IProps> {
                 onChange={onHandleChangeBody}
               />
             </div>
-            <button type="submit" className="mb-4">
+            <button type="submit">
               <span className="text-sm font-semibold text-white bg-[#F7CE45]/80 rounded-md py-2 px-4">
                 Save
               </span>
